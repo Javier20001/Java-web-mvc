@@ -1,0 +1,10 @@
+Ejem\CRUD\web\Modelo\main.class
+Ejem\CRUD\web\Modelo\Producto.class
+Ejem\CRUD\web\Modelo\Modelo.class
+Ejem\CRUD\web\Controlador\AppServlets.class
+Ejem\CRUD\web\Modelo\ModeloMySQL.class
+Ejem\CRUD\web\Modelo\ModeloHC.class
+Ejem\CRUD\web\Modelo\Empleado.class
+Ejem\CRUD\web\Modelo\Coneccion.class
+Ejem\CRUD\web\Modelo\ModeloFactory.class
+Ejem\CRUD\web\Controlador\CarritoServlet.class

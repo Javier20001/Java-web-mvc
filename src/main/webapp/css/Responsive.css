@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 jun. 2022, 12:16:57
+    Author     : kuzni
+*/
+/*div{
+    width: 49%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.caja1{
+    background: #aaa;
+}
+
+.caja2{
+    background: #ccc;
+
+}
+
+.caja1 h1{
+    font-size: 3em;
+}
+
+@media only screen and (max-width:800px){ lo qeu hiximos aca fue crear una funcionq eu cada vez qeu el width sea menor a 800px , que haga los siguientes cambios
+    div{
+        display: block;
+        width: 100%;
+    }
+    .caja1 h1 {
+        font-size: 20px;
+    }
+}*/
+
+.nav__Responsive-Ul{
+    display: none;
+}
+
+.nav{
+    background: #9bb;
+}
+
+.nav-li{
+    display: inline-block;
+    padding: 10px;
+    color: #eee;
+}
+
+.nav-li a{
+    color: #eee;
+    text-decoration: none;
+}
+
+.nav__Ul-contenedor{
+    text-align: right;
+}
+
+.nav-li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav-li:hover > a{
+    color: #555;
+    text-decoration: none;
+}
+.nav-li:hover > i{
+    color: #555;
+    text-decoration: none;
+}
+
+.nav__Responsive-Buttom-Contenedor{/*parte del botom del menu responsive*/
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    background:#9bb  ;
+    margin-top: -37px;/*controla qeu el botom este arriba y no tape el home*/
+    z-index: 100;
+
+}
+
+.nav__Responsive-ContenedorButtom{/*posicionamiento de las barras*/
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 500px){
+    .nav-Ul{
+        display: none;
+    }
+
+    .nav{
+        height: 37px;
+        width: 100%;
+    }
+
+    /*clase padre del menu responsive*/
+    .nav__Responsive-Ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        background: #9aa;
+        margin-top: 37px;
+        height: 0px;
+    }
+
+    /*propiedades del contenedor del los "a"*/
+    .nav__Responsive-contenedor{
+        position: relative;
+        top:-1000px ;
+        height: calc(280px - 37px);
+        background: #9aa;
+        transition: all 1s;
+        z-index: 1;
+
+    }
+    /*propiedades de los elementos de la lista*/
+    .nav__Responsive-li{
+        width: 100%;
+        padding: 9px 20px;
+    }
+    /*propiedades de los iconos de la lista*/
+    .nav__Responsive-li i{
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+    }
+    /*propiedades de los link de la lista*/
+    .nav__Responsive-li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /*hace que cambie de color cuadno el mouse este encima*/
+    .nav__Responsive-li:hover > a{
+        text-decoration: none;
+        color: #ddd;
+    }
+    .nav__Responsive-li:hover > i{
+        text-decoration: none;
+        color: #ddd;
+    }
+    /*estilo de las redes*/
+    .nav__responsive-contenedorRedes{
+        position: relative;
+        padding: 40px 15px;
+        text-align: end;
+    }
+    .nav__responsive-contenedorRedes li{
+        box-sizing: border-box;
+        font-size: 30px;
+        margin: 0px  5px -20px 0px ;
+        display: inline-block;
+    }
+
+    .nav__Responsive-li-Redes  a:visited{
+        color: #000;
+    }
+
+    .nav__Responsive-li-Redes:hover > a{
+        text-decoration: none;
+        color: #ddd;
+    }
+
+
+    /*despliega el menu cuando el mause esta sobre las barras*/
+    .nav__Responsive-Ul:hover > .nav__Responsive-contenedor{
+        top :0 ;
+    }
+
+
+    /*------------------Parte del SingIn--------------------*/
+
+}
